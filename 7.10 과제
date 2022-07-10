@@ -1,0 +1,33 @@
+#1 
+def print_love():
+    print("알고리즘 사랑해"
+    
+for i in range(100):
+    print_love()
+
+#2
+def print_ma():
+    a=int(input())
+    b=int(input())
+    c=int(input())
+    if a>b:
+        if a>c:
+           print(a)
+        else:
+           print(c)
+    if b>c:
+       print(b)
+    else:
+        print(c)
+        
+#3
+def avg_numbers(*args):
+    result = 0
+    for i in args:
+        result += i
+    return result / len(args)
+print(avg_numbers(1, 2)) #>>> 1.5
+print(avg_numbers(1,2,3,4,5)) #>>> 3.0
+
+#4?
+#5?
