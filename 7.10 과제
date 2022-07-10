@@ -1,6 +1,6 @@
 #1 
 def print_love():
-    print("알고리즘 사랑해"
+    print("알고리즘 사랑해")
     
 for i in range(100):
     print_love()
